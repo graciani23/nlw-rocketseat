@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-search-results" %}
+
+{% block title %}
+<title>Resultado da Pesquisa</title>
+{% endblock title %}
+
+{% block styles %}
+<link rel="stylesheet" href="/styles/search-results.css">
+{% endblock styles %}
+
+{% block content %}
+{% include "partials/page-header.html" %}
+
+<main>
+  <h4>
+    <strong>2 pontos</strong> encontrados
+  </h4>
+  <div class="cards">
+    <div class="card">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnkJKRzOeyJJRA0o1hccYEzSytUsw5-bv2sj0haakCtS4HU1_m&usqp=CAU"
+        alt="Colectoria">
+      <h1>Colectoria</h1>
+      <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+      <p>Rio do Sul, Santa Catarina<br>
+        Guilherme Gemballa, Jardim América<br>
+        Número 260
+      </p>
+    </div>
+    <div class="card">
+      <img src="https://www.grocotts.co.za/wp-content/uploads/2017/08/Recycle-Paper.jpg" alt="Papersider">
+      <h1>Papersider</h1>
+      <h3>Papeis e Papelão</h3>
+      <p>Rio do Sul, Santa Catarina<br>
+        Guilherme Gemballa, Jardim América<br>
+        Número 260
+      </p>
+    </div>
+  </div>
+</main>
+{% endblock content %}
