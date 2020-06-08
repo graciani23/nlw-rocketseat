@@ -34,10 +34,10 @@
           </div>
         </div>
 
-        <div class="field">
+        <!-- <div class="field">
           <label for="name">Nome da entidade</label>
           <input type="text" name="name" required>
-        </div>
+        </div> -->
         <div class="field-group">
           <div class="field">
             <label for="address">Endereço</label>
@@ -109,7 +109,7 @@
     
   {% endblock content %}
   
-  {% blck modal %}
+  {% block modal %}
     {% if saved %}
       {%include "partials/point-created.html" %}
     {% endif %}

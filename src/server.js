@@ -47,6 +47,7 @@ const values = [
   req.body.address,
   req.body.address2,
   req.body.state,
+  req.body.city,
   req.body.items,
 ]
 

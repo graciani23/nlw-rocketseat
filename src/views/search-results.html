@@ -18,15 +18,18 @@
     <h4>
       <strong>{{total}} pontos</strong> encontrados
     </h4>
+
     <div class="cards">
+
       {% for place in places %}
+      
         <div class="card">
           <img
-            src="{{ place.image }}"
-            alt="{{ place.name }}">
+            src="{{ place.image }}" alt="{{ place.name }}">
           <h1>{{ place.name }}</h1>
           <h3>{{ place.items }}</h3>
-          <p>{{ place.city }}, {{ place.state }}br>
+          <p>
+            {{ place.city }}, {{ place.state }}br>
             {{ place.adress }}<br>
             {{ place.adress2 }}
           </p>
