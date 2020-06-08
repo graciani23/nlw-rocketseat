@@ -54,6 +54,7 @@ const values = [
 function afterInsertData(err) {
   if(err) {
     return console.log(err)
+    return res.send("Erro no cadastro!")
   }
   console.log("Cadastrado com sucesso!")
   console.log(this)
@@ -77,9 +78,10 @@ server.get("/search", (req, res) => {
     if(err) {
       return console.log(err)
     }
+    console.log(rows)
     const total = rows.length
-
-    
+    console.log(total)
+    return res.render("search-results.html", {places: rows, total:total})
   })
 
 })
