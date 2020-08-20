@@ -2,6 +2,9 @@
 
 NLW - Uma semana de aprendizado da rocket com a finalidade de construir um projeto de ponta a ponta.
 
+## Objetivo
+O projeto tem como objetivo ajudar usuários a encontrar pontos de coleta de baterias e similares.
+
 ## Como rodar o projeto
 * npm start
 
@@ -9,3 +12,4 @@ NLW - Uma semana de aprendizado da rocket com a finalidade de construir um proje
 * HTML;
 * CSS;
 * JavaScript;
+
