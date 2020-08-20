@@ -2,7 +2,7 @@
 
 NLW - Uma semana de aprendizado da rocket com a finalidade de construir um projeto de ponta a ponta.
 
-## Objetivo
+## Objetivo <img src="https://lh3.googleusercontent.com/proxy/Yd3-boMz_apRzCEpUSN4f8ytpRsZquvNPNwc-C285SIRIxfWHObDYHo9J0DXLzBqLVJ1GgR0LiIEtgeagWdF6JDcyrDw2SMe_iF6xoNHcbkvQNmiGTqZ_jWgZudO4loN7hEp1617AhEtwjhzAZK56CEhmZZnA2tUjN_m5U6gdh0mi8jijQ" width="50px" height="50px">
 O projeto tem como objetivo ajudar usuários a encontrar pontos de coleta de baterias e similares.
 
 ## Como rodar o projeto
